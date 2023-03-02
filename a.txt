@@ -1,0 +1,7 @@
+Check branch : git branch -a 
+Go to main branch(nc_development_release) from sprint_x : git checkout nc_development_release
+git merge sprint_x (if need) 
+git tag (show tag list)
+git tag -a spv3.2 -m "nc api sprint_3 version 3.2"
+git show spv3.2
+git push origin spv3.2
